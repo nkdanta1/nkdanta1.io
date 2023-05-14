@@ -1,8 +1,8 @@
 {
-  "name": "my-resume",
+  "name": "resume.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nkdanta1.github.io/resume.io/my-resume",
+  "homepage": "https://nkdanta1.github.io/resume.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
