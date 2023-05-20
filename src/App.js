@@ -37,12 +37,7 @@ function App() {
           <div>
             <ul className="horizontal-list text-center social-icons">
               <li>
-                <a href="https://www.facebook.com/nitesh.kumawat.cer17">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/nitesh-kumawat-6b8b82171/">
+                <a href="https://www.linkedin.com/in/nitesh-kumawat/">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </li>
@@ -58,7 +53,7 @@ function App() {
           </div>
           <div id="about-para">
             <b>
-              A programmer who tries to turn thoughts into code.
+              I am a software developer with 2 years of experience. My passion lies in solving complex problems, and delivering efficient solutions.
             </b>
           </div>
         </section>
@@ -73,42 +68,56 @@ function App() {
             <div className="skill-progress">
               <div className="eighty-percent mb-blue">
                 <div className="skill-name">
-                  <span> C++ </span>
+                  <span> Python </span>
                 </div>
               </div>
             </div>
             <div className="skill-progress">
               <div className="eighty-percent mb-orange">
                 <div className="skill-name">
-                  <span> HTML </span>
+                  <span> C++ </span>
                 </div>
               </div>
             </div>
             <div className="skill-progress">
-              <div className="fifty-percent mb-light-purple">
-                <div className="skill-name">
-                  <span> CSS </span>
-                </div>
-              </div>
-            </div>
-            <div className="skill-progress">
-              <div className="fifty-percent mb-teal">
+              <div className="eighty-percent mb-teal">
                 <div className="skill-name">
                   <span> Data-Structure </span>
                 </div>
               </div>
             </div>
             <div className="skill-progress">
-              <div className="fifty-percent mb-blue">
+              <div className="eighty-percent mb-light-purple">
                 <div className="skill-name">
                   <span> Algorithm </span>
                 </div>
               </div>
             </div>
             <div className="skill-progress">
+              <div className="fifty-percent mb-blue">
+                <div className="skill-name">
+                  <span> Flask </span>
+                </div>
+              </div>
+            </div>
+            <div className="skill-progress">
+              <div className="fifty-percent mb-orange">
+                <div className="skill-name">
+                  <span> Node.js </span>
+                </div>
+              </div>
+            </div>
+            <div className="skill-progress">
+              <div className="fifty-percent  mb-teal">
+                <div className="skill-name">
+                  <span> Apache Airflow </span>
+                </div>
+              </div>
+            </div>
+            <div className="skill-progress">
               <div className="fifty-percent mb-light-purple">
                 <div className="skill-name">
-                  <span> Python</span>
+                  <span> AWS </span>
                 </div>
               </div>
             </div>
@@ -122,14 +131,15 @@ function App() {
             <span> Work Experience </span>
           </h1>
           <div className="timeline">
-            <div className="timeline-box ">
+            <div className="timeline-box">
               <div className="timeline-container">
-                <h3 className="experience-designation  m0 m-blue"> Internship </h3>
-                <h4 className="experience-company-name"> Wyn Technology Pvt. Ltd. </h4>
-                <h5 className="experience-duration m0"> April 2020 - May 2020 </h5>
-                <p className="experience-description text-align-justify">
-                  {/* Worked on Joomla CMS and developed website in the same environment. */}
-                </p>
+                <div className="timeline-logo">
+                  {/* <img>*/}
+                </div>
+                <h3 className="experience-designation  m0 m-blue"> Software Engineer</h3>
+                <h4 className="experience-company-name"> Tercept </h4>
+                <h5 className="experience-duration m0"> July 2021 - PRESENT </h5>
+                <p className="experience-description text-align-justify" />
               </div>
             </div>
             <div className="timeline-box right ">
@@ -140,17 +150,6 @@ function App() {
                 <h3 className="experience-designation  m0 m-blue"> Data Engineering Intern </h3>
                 <h4 className="experience-company-name"> tribes.ai </h4>
                 <h5 className="experience-duration m0"> Feb 2021 - May 2021 </h5>
-                <p className="experience-description text-align-justify" />
-              </div>
-            </div>
-            <div className="timeline-box">
-              <div className="timeline-container">
-                <div className="timeline-logo">
-                  {/* <img>*/}
-                </div>
-                <h3 className="experience-designation  m0 m-blue"> Software Engineer</h3>
-                <h4 className="experience-company-name"> Tercept </h4>
-                <h5 className="experience-duration m0"> July 2021 - PRESENT </h5>
                 <p className="experience-description text-align-justify" />
               </div>
             </div>
@@ -171,22 +170,6 @@ function App() {
             <span> Education </span>
           </h1>
           <div className="timeline">
-            <div className="timeline-box left ">
-              <div className="timeline-container">
-                <div className="timeline-logo">
-                  {/*-img*/}
-                </div>
-                <h3 className="experience-designation  m0 m-blue"> School </h3>
-                <h4 className="experience-company-name "> Swami Nityanand Senior Secondary School </h4>
-                <h5 className="experience-duration m0"> 2004 - 2016 </h5>
-                <p className="experience-description text-align-right">
-                  10th: 88.33%
-                </p>
-                <p className="experience-description text-align-right">
-                  12th: 84.20%
-                </p>
-              </div>
-            </div>
             <div className="timeline-box right ">
               <div className="timeline-container">
                 <div className="timeline-logo">
@@ -199,13 +182,6 @@ function App() {
                 <p className="experience-description text-align-right">
                   CPI:8.51
                 </p>
-              </div>
-            </div>
-            <div id="timeline-divider">
-              <div className="timeline-traveller">
-                <div>
-                  <i className="fas fa-car-side" />
-                </div>
               </div>
             </div>
           </div>
@@ -237,13 +213,8 @@ function App() {
           <div className="text-center social-icons">
             <ul className="horizontal-list">
               <li>
-                <a href="https://www.linkedin.com/in/nitesh-kumawat-6b8b82171/">
+                <a href="https://www.linkedin.com/in/nitesh-kumawat/">
                   <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/nitesh.kumawat.cer17">
-                  <i className="fab fa-facebook-f" />
                 </a>
               </li>
             </ul>
